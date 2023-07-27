@@ -1,0 +1,20 @@
+.navbar-brand {
+    align-items: stretch;
+    display: flex;
+    flex-shrink: 0;
+    min-height: 3.25rem;
+    margin-left: 4%;
+}
+.navbar-item {
+    align-items: center;
+    display: flex;
+    margin-left: 12%;
+}
+
+@media (max-width: 767px) {   
+    .navbar-item {
+        align-items: center;
+        display: flex;
+        margin-left: 1%;
+    }
+}

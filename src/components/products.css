@@ -1,0 +1,32 @@
+.bgf {
+    background: rgb(202, 202, 202);
+}
+.image {
+    min-width: 50%;
+    max-width: 100%;
+    min-height: 30rem;
+}
+
+#about-logo {
+    width: 200px;
+    max-width: 150%;
+    height: auto;
+    margin: 20% 35%;
+    padding-top: 50%;
+}
+@media (max-width:785px) {
+    #about-logo {
+        width: 200px;
+        max-width: 150%;
+        height: auto;
+        margin: 0% 50%;
+        padding-top: 20%;
+    }
+    .image {
+        min-width: 50%;
+        max-width: 100%;
+        min-height: 20rem;
+    }
+}
+
+
